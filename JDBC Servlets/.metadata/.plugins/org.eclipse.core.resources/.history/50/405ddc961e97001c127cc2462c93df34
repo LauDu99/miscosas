@@ -1,0 +1,22 @@
+package com.laura.jdbc.dao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class AccountaIDAO {
+	public static void main(String[] args) {
+		try {//si no es localhost poner la ip si es otro puerto poner el puerto asignado, usuario y contra
+			Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/mydb", "root", "12345");//tiene que ser tu contraseñaa
+			System.out.println(connection);
+			Statement statement = connection.createStatement();
+			//int result = statement.executeUpdate("insert into account values(1,'Laura','Duran',1000)");
+			//int result = statement.executeUpdate("update account set bal=5000 where accno=1");
+			int result = statement.executeUpdate("update account where accno=1");
+			System.out.println(result);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+}

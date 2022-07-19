@@ -1,0 +1,10 @@
+package com.laura.pb;
+
+public class PatientBiling {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

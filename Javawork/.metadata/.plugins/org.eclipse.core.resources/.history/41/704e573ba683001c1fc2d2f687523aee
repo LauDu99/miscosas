@@ -1,0 +1,11 @@
+import java.io.IOException;
+import java.nio.file.Files;
+
+public class FileUpdates {
+
+	public static void main(String[] args) throws IOException {
+
+		Files.writeString(Files.createTempFile("test",".txt"), "Java is cool");
+	}
+
+}

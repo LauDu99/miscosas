@@ -1,0 +1,10 @@
+package com.htttp.client.demo;
+
+public class HttpClientSyncDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

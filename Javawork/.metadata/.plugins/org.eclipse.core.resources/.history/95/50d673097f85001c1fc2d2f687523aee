@@ -1,0 +1,13 @@
+package com.laura.maven.mavendemo;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+extends TestCase
+{
+	public String Hello(String name) {
+		return "Hello"+name;
+	}
+}

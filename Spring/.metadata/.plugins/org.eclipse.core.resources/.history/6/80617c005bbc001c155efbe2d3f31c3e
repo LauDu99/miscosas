@@ -1,0 +1,5 @@
+package com.laura.spring.springorm.entity;
+
+public class Product {
+
+}

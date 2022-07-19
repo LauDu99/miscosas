@@ -1,0 +1,13 @@
+package com.laura.java12.numberformat;
+
+import java.text.NumberFormat;
+
+public class NumberformatDemo {
+
+	public static void main(String[] args) {
+
+		NumberFormat format = NumberFormat.getCompactNumberInstance();
+		
+	}
+
+}

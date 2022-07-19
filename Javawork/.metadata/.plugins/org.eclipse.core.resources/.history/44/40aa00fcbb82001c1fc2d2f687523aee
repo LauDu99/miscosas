@@ -1,0 +1,16 @@
+import java.lang.reflect.Constructor;
+
+public class Test {
+
+	public static void main(String[] args) {
+		//cargando una clase 
+		try {
+			Class<?> myClass = Class.forName(Calculator.class.getName());
+			System.out.println(myClass.getName());
+			Constructor<?>[] constructor = myClass.getConstructors();
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

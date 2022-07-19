@@ -1,0 +1,8 @@
+package com.laura.spring.springjdbc.employee.dao.impl;
+
+import com.laura.spring.springjdbc.employee.dao.EmployeeDao;
+
+public class EmployeeDaoimpl implements EmployeeDao{
+	
+
+}

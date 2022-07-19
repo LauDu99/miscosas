@@ -1,0 +1,9 @@
+package com.laura.maven.mavendemo;
+
+/**
+ * Unit test for simple App.
+ */
+public class AppTest 
+{
+    
+}

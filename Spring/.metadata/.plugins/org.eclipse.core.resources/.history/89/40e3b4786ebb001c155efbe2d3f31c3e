@@ -1,0 +1,14 @@
+package com.laura.spring.springjdbc.employee.dao.impl;
+
+import com.laura.spring.springjdbc.employee.dao.EmployeeDao;
+import com.laura.spring.springjdbc.employee.dto.Employee;
+
+public class EmployeeDaoimpl implements EmployeeDao{
+
+	@Override
+	public int create(Employee employee) {
+		return 0;
+	}
+	
+
+}

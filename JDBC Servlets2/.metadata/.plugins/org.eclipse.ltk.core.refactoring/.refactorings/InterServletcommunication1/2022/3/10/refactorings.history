@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;InterServletcommunication1&apos;&#x0D;&#x0A;- Original project: &apos;InterServletcommunication1&apos;&#x0D;&#x0A;- Original element: &apos;InterServletcommunication1/src/main/java/com.bharath.trainings.interservletcommunication&apos;" description="Delete element" element1="/src\/main\/java&lt;com.bharath.trainings.interservletcommunication" element2="/src\/main\/java&lt;com.bharath.trainings" element3="/src\/main\/java&lt;com.bharath" element4="/src\/main\/java&lt;com" elements="4" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1646167614290" subPackages="false" version="1.0"/>
+</session>

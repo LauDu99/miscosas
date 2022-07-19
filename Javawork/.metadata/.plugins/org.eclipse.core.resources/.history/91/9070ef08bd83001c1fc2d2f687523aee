@@ -1,0 +1,13 @@
+package com.laura.java12.unicodechars;
+
+public class Chess {
+
+	public static void main(String[] args) {
+	
+		//un rey 
+		System.out.println("\u265A");
+		//una reina
+		System.out.println("\u265B");
+	}
+
+}

@@ -1,0 +1,11 @@
+import java.util.Locale;
+
+public class LocalTest {
+
+	public static void main(String[] args) {
+		
+		//para obtener la region de idioma
+		Locale l = Locale.getDefault();
+	}
+
+}

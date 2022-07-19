@@ -1,0 +1,5 @@
+package com.laura.core.dao;
+
+public class PaymentDAOImpl implements PaymentDAO {
+
+}

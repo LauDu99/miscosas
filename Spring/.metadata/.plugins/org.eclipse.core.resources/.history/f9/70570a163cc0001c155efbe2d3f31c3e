@@ -1,0 +1,15 @@
+package com.laura.spring.springaop.aspects;
+
+import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+
+@Aspect
+public class LogginAspect {
+
+	@Before
+	public void logBefore(JoinPoint jointPoint) {
+		System.out.println("before calling the method");
+		
+	}
+}

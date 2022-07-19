@@ -1,0 +1,25 @@
+package com.laura.javanetworking.basics;
+
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class Client {
+
+	public static void main(String[] args) {
+
+		try {
+			//creando un socket simple que toma el host
+			Socket socket = new Socket("Localhost", 8080);
+			DataOutputStream dos = new DataOutputStream(socket.getOutputStream());
+			
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

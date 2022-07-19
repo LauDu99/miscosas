@@ -1,0 +1,5 @@
+com\laura\product\bo\ProductBOImpl.class
+com\laura\product\dto\Product.class
+com\laura\product\bo\ProductBO.class
+com\laura\product\dao\ProductDAOImpl.class
+com\laura\product\dao\ProductDAO.class

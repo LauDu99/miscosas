@@ -1,0 +1,8 @@
+package com.laura.java1314;
+
+public record Employee(String name, int sal) {
+
+	public Employee() {
+		
+	}
+}

@@ -1,0 +1,15 @@
+@Deprecated
+public class A {
+	@Deprecated
+	public int b;
+
+	public void mymethod() {
+
+	}
+
+	@MyAnnotation
+	public void mymethod2() {
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.laura.java15;
+
+public sealed class ThreeSeries extends BMWSeries {
+
+}

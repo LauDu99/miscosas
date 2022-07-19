@@ -1,0 +1,5 @@
+package com.laura.spring.springjdbc.employee.dao;
+
+public interface EmployeeDao {
+
+}

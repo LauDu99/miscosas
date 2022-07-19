@@ -1,0 +1,9 @@
+
+public class SimpleDateFormatTest {
+
+	public static void main(String[] args) {
+		//configurar la fecha con el formato que prefieras
+		SimpleDateFormat sdf = new SimpleDateFormat("M/dd/yyyy");
+	}
+
+}

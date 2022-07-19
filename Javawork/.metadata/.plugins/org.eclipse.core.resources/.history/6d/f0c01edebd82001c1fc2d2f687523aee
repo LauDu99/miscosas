@@ -1,0 +1,30 @@
+import java.lang.reflect.Constructor;
+import java.util.Arrays;
+
+public class Test {
+
+	public static void main(String[] args) {
+		//cargando una clase 
+		try {
+			//obteniendo el nombre y contructores de la clase
+			Class<?> myClass = Class.forName(Calculator.class.getName());
+			System.out.println(myClass.getName());
+			Constructor<?>[] constructor = myClass.getConstructors();
+			System.out.println(Arrays.toString(constructor));
+			//obteniendo metodos
+			System.out.println(Arrays.toString(myClass.getMethods()));
+			
+			Constructor<?> constructors = myClass.getConstructor(null);
+			
+			System.out.println(constructor.newInstance(null));
+			
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		} catch (NoSuchMethodException e) {
+			e.printStackTrace();
+		} catch (SecurityException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

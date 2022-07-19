@@ -1,0 +1,44 @@
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+import java.util.Arrays;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// cargando una clase
+		try {
+			// obteniendo el nombre y contructores de la clase
+			Class<?> myClass = Class.forName(Calculator.class.getName());
+			System.out.println(myClass.getName());
+			Constructor<?>[] constructor = myClass.getConstructors();
+			System.out.println(Arrays.toString(constructor));
+			// obteniendo metodos
+			System.out.println(Arrays.toString(myClass.getMethods()));
+
+			// obteniendo el constructor predeterminado
+			Constructor<?> constructors = myClass.getConstructor(null);
+
+			System.out.println(constructors.newInstance(null));
+
+			Constructor<?> constructors2 = myClass.getConstructor(double.class, double.class);
+
+			System.out.println(constructors.newInstance(5,10));
+
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		} catch (NoSuchMethodException e) {
+			e.printStackTrace();
+		} catch (SecurityException e) {
+			e.printStackTrace();
+		} catch (InstantiationException e) {
+			e.printStackTrace();
+		} catch (IllegalAccessException e) {
+			e.printStackTrace();
+		} catch (IllegalArgumentException e) {
+			e.printStackTrace();
+		} catch (InvocationTargetException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.laura.core.services;
+
+import org.springframework.stereotype.Service;
+
+import com.laura.core.dao.PaymentDAO;
+
+@Service
+public class PaymentServiceImpl implements PaymentService {
+
+	private PaymentDAO dao;
+
+	public PaymentDAO getDao() {
+		return dao;
+	}
+
+	public void setDao(PaymentDAO dao) {
+		this.dao = dao;
+	}
+}

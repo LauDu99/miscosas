@@ -1,0 +1,48 @@
+package com.laura.java1314;
+
+import java.util.Objects;
+
+public class Employee {
+
+	private String name;
+	private String sal;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getSal() {
+		return sal;
+	}
+
+	public void setSal(String sal) {
+		this.sal = sal;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [name=" + name + ", sal=" + sal + "]";
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(name, sal);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Employee other = (Employee) obj;
+		return Objects.equals(name, other.name) && Objects.equals(sal, other.sal);
+	}
+
+}

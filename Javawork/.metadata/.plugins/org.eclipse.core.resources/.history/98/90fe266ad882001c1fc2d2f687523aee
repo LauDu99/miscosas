@@ -1,0 +1,12 @@
+package com.laura.java.re;
+
+import java.io.File;
+
+public class TextFileFolder {
+
+	public static void main(String[] args) {
+		File directory = new File("C:\\Users\\106721781\\Desktop\\demo");
+		String[] fileNames = directory.list();
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.laura.java.re;
+
+import java.util.regex.Pattern;
+
+public class PatternandMatcher {
+
+	public static void main(String[] args) {
+		Pattern pattern = Pattern.compile("abc");
+	}
+
+}

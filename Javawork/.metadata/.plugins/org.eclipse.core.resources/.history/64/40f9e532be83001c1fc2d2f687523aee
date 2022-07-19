@@ -1,0 +1,10 @@
+package com.laura.java12.collectors;
+
+public class TeeingDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

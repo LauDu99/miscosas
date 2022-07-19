@@ -1,0 +1,14 @@
+package com.laura.java12.collectors;
+
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class TeeingDemo {
+
+	public static void main(String[] args) {
+
+		Stream.of(5,10,20,7).collect(Collectors.teeing(Collectors.counting(), Collectors.filtering(n->Integer.parseInt(n.toString())>10,Collectors.toList()), merger));
+		
+	}
+
+}

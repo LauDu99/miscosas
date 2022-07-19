@@ -1,0 +1,48 @@
+1649626870323	Delete element
+1649627115033	Encapsulate field 'id'
+1649627121768	Encapsulate field 'name'
+1649627155578	Delete element
+1649659097830	Move compilation unit
+1649659142787	Encapsulate field 'name'
+1649659147914	Encapsulate field 'departments'
+1649659221132	Copy file
+1649659234662	Rename resource 'config.xml'
+1649660211117	Encapsulate field 'name'
+1649660214860	Encapsulate field 'models'
+1649660236109	Copy file
+1649660257290	Rename resource 'listconfig.xml'
+1649660424687	Copy compilation unit
+1649661339967	Encapsulate field 'id'
+1649661344542	Encapsulate field 'products'
+1649661415380	Copy file
+1649661458457	Copy compilation unit
+1649661561062	Rename resource 'setconfig.xml'
+1649689160176	Encapsulate field 'countryAndLanguages'
+1649689218919	Copy elements
+1649690564081	Encapsulate field 'scores'
+1649690871583	Copy package
+1649690881069	Delete element
+1649690902302	Rename package 'com.laura.spring.springcore.reftypes.copy'
+1649690924112	Copy elements
+1649692217092	Encapsulate field 'id'
+1649692306946	Encapsulate field 'item'
+1649692410978	Copy elements
+1649698091162	Encapsulate field 'id'
+1649698106713	Copy file
+1649698347880	Copy compilation unit
+1649700123714	Copy elements
+1649700929544	Copy elements
+1649703278033	Copy elements
+1649704277728	Copy file
+1649742832214	Copy file
+1649742872829	Copy compilation unit
+1649743393781	Copy compilation units
+1649774497622	Copy file
+1649777976236	Copy file
+1649778247728	Move file
+1649778758764	Copy file
+1649786809990	Copy elements
+1649787362214	Rename resource 'database.properties'
+1649789064982	Copy package
+1649789099623	Delete element
+1649789461421	Copy elements

@@ -1,0 +1,16 @@
+package com.laura.spring.springorm.product.dao.impl;
+
+import org.springframework.orm.hibernate5.HibernateTemplate;
+
+import com.laura.spring.springorm.product.dao.ProductDao;
+import com.laura.spring.springorm.product.entity.Product;
+
+public class ProductDaoImpl implements ProductDao {
+
+	HibernateTemplate
+	@Override
+	public int create(Product product) {
+		return 0;
+	}
+
+}

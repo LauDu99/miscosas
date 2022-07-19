@@ -1,0 +1,20 @@
+package com.laura.spring.springaop.aspects;
+
+import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.annotation.After;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+
+@Aspect
+public class LogginAspect {
+
+	@Before("execution(*com.laura.spring.springaop.ProductServiceImpl.multiply(..))")
+	public void logBefore(JoinPoint jointPoint) {
+		System.out.println("before calling the method");
+	}
+
+	@After("")
+	public void logAfter(JoinPoint jointPoint) {
+		System.out.println("after the method execution");
+	}
+}

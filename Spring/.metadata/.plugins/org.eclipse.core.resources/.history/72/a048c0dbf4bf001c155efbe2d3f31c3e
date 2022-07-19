@@ -1,0 +1,5 @@
+package com.laura.springmvcorm.user.entity;
+
+public class User {
+
+}

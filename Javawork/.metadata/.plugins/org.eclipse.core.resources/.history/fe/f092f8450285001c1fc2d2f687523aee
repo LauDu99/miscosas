@@ -1,0 +1,9 @@
+package java16.records;
+
+public class RecordDemo {
+
+	public static void main(String[] args) {
+		Product product = new Product();
+	}
+
+}

@@ -1,0 +1,13 @@
+package bonusprogram;
+
+import java.util.HashMap;
+
+public class CharCounter {
+
+	public static void main(String[] args) {
+
+		String s= "Im the creator of my desstiny";
+		HashMap<Character,Integer> map = new HashMap<Character, Integer>();
+	}
+
+}

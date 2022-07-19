@@ -1,0 +1,5 @@
+package com.laura.user.servlets;
+
+public @interface WebInitParam {
+
+}

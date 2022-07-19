@@ -1,0 +1,25 @@
+package com.laura.product.dao;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import com.laura.product.dto.Product;
+
+public class ProductDAOImplTest {
+
+	@Test
+	public void createShouldCreateAProduct() {
+		ProductDAO dao = new ProductDAOImpl();
+		Product product = new Product();
+		product.setId(1);
+		product.setName("Iphone");
+		product.setDescription("Awesome");
+		product.setPrice(200);
+		dao.create(product);
+		Product result = dao.read(1);
+		assertNotNull(result);
+		assertEquals("Iphone", result.getName());
+	}
+
+}

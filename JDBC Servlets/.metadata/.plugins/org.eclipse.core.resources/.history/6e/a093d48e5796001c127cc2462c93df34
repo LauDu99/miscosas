@@ -1,0 +1,9 @@
+package com.laura.jdbc.dao;
+
+import java.sql.DriverManager;
+
+public class AccountaIDAO {
+	public static void main(String[] args) {
+		DriverManager.getConnection("jdbc::mysql://localhost/mydb", "root", "test")
+	}
+}

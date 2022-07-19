@@ -1,0 +1,13 @@
+package com.laura.maven.mavendemo;
+
+/**
+ * Unit test for simple App.
+ */
+public class AppTest 
+{//es bueno dar nombres largos para saber que hace la prueba
+    public void givenNameWhenHelloThenReturnHelloName() {
+    	App app = new App();
+    	String result = app.Hello("Laura");
+    	//para regresar  el resultado se usan afirmaciones
+    }
+}

@@ -1,0 +1,12 @@
+package bonusprogram;
+
+public class CharReversal {
+
+	public static void main(String[] args) {
+
+		String s = "Java is Awesome!!";
+		
+		String[] temp = s.split(" ");
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.laura.java1314;
+
+public class NullPointerHelp {
+
+	public static void main(String[] args) {
+
+		String str = "hi";
+		System.out.println(str.charAt(1));
+		
+	}
+
+}

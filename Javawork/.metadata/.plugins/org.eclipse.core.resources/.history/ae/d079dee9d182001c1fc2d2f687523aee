@@ -1,0 +1,11 @@
+package com.laura.java.re;
+
+import java.util.regex.Pattern;
+
+public class Character {
+
+	public static void main(String[] args) {
+		System.out.println(Pattern.matches(["abc"], "a"));
+	}
+
+}

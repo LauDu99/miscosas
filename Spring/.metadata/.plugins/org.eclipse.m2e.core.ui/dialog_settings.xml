@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\106721781\Documents\Spring\springmvc2"/>
+			<item value="C:\Users\106721781\Documents\Spring\springorm\src\main\java"/>
+			<item value="C:\Users\106721781\Documents\Spring\springorm"/>
+			<item value="C:\Users\106721781\Documents\Spring\springjdbc\src\main\java\com\laura\spring\springjdbc\employee\dao\impl\EmployeeDaoimpl.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.laura.spring.springjavaconfig"/>
+			<item value="com.laura.spring.springaop"/>
+			<item value="com.laura.spring.sprigmvcorm"/>
+			<item value="com.laura.spring.prueba"/>
+			<item value="com.laura.spring.springmvc2"/>
+			<item value="com.laura.spring.springmvc"/>
+			<item value="com.laura.spring.springorm"/>
+			<item value="com.laura.spring.springjdbc"/>
+			<item value="com.laura.spring.springcoreadvanced"/>
+			<item value="com.laura.spring.springcore"/>
+		</list>
+		<list key="groupId">
+			<item value="com.laura.spring"/>
+		</list>
+		<list key="artifactId">
+			<item value="springjavaconfig"/>
+			<item value="springaop"/>
+			<item value="sprigmvcorm"/>
+			<item value="prueba"/>
+			<item value="springmvc2"/>
+			<item value="springmvc"/>
+			<item value="springorm"/>
+			<item value="springjdbc"/>
+			<item value="springcoreadvanced"/>
+			<item value="springcore"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\106721781\Downloads\springboot\springboot"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

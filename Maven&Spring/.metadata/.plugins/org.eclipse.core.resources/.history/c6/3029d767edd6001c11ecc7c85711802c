@@ -1,0 +1,8 @@
+package com.laura.core.services;
+
+import com.laura.core.dao.PaymentDAO;
+
+public class PaymentServiceImpl implements PaymentService {
+
+	private PaymentDAO dao;
+}

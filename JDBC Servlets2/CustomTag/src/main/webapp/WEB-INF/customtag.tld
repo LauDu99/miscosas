@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib>
+<tlibversion>2.0</tlibversion>
+<jspversion>2.0</jspversion>
+<shortname>userinformation</shortname>
+<info>This library display the user information</info>
+<uri>http://laura.com</uri>
+
+<tag>
+<name>display-user</name>
+<tagclass>com.laura.jsp.customtags.ResultHandler</tagclass>
+<info>Display the user information</info>
+</tag>
+</taglib>

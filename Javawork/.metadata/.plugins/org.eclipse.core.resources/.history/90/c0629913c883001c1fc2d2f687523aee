@@ -1,0 +1,16 @@
+package com.htttp.client.demo;
+
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+
+public class HttpClientSyncDemo {
+
+	public static void main(String[] args) throws URISyntaxException {
+
+		HttpClient client = HttpClient.newHttpClient();
+		HttpRequest request = HttpRequest.newBuilder(new URI("http://fakerestapi.azurewebsites.net/api/activities/")).GET().build();
+	}
+
+}

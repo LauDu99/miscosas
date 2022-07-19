@@ -1,0 +1,50 @@
+zpackage com.laura.javanetworking.chat;
+
+import java.io.BufferedReader;
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class ChatServer {
+
+	public static void main(String[] args) {
+
+		try {
+			ServerSocket serverSocket = new ServerSocket(9090);
+			Socket socket = serverSocket.accept();
+			//creando la entrada y salida de datos
+			DataInputStream in = new DataInputStream(socket.getInputStream());
+			DataOutputStream out = new DataOutputStream(socket.getOutputStream());
+
+			// leer los datos de la consola, buffer sirve para simplificar la lectura de
+			// datos
+			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+			
+			String messageReceved="", messageTosend="";
+			
+			while(true) {
+				messageReceved =in.readUTF();
+				System.out.println("Client says: "+messageReceved);
+				//siempre es bueno comprobar si es nulo tambien
+				if(messageReceved!=null && messageReceved.equals("exit")) {
+					break;					
+				}
+				//lee el mensaje y escribe lo que se mando, flush es para el buffered
+				messageTosend = br.readLine();
+				out.writeUTF(messageTosend);
+				out.flush();
+			}
+			br.close();
+			out.close();
+			in.close();
+			socket.close();
+		
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

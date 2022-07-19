@@ -1,0 +1,13 @@
+package com.laura.spring.springjavaconfig;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class Service {
+
+	@Autowired
+	Dao dao;
+	//primero creas el objeto y en el servicio lo inyectas para guardarlo
+	public void save() {
+		dao.create();
+	}
+}

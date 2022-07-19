@@ -1,0 +1,10 @@
+package com.laura.java9.privatemethods;
+
+public class SendnotificationsImpl implements SendNotifications{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

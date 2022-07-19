@@ -1,0 +1,20 @@
+package com.laura.java1314;
+
+public class SwitchExpressionDemo {
+
+	public static void main(String[] args) {
+
+		int key =1;
+		
+		String result = switch (key) {
+		case 1: {
+			//ya no es break
+			yield "Choice 1";
+		}
+		default:
+			yield "Invalid exception";
+		};
+		System.out.println(result);
+	}
+
+}

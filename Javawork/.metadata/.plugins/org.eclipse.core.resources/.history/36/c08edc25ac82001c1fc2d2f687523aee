@@ -1,0 +1,13 @@
+
+public class B {
+
+	//anular el metodo deprecated
+	@SuppressWarnings(value = { "deprecation" })
+	public static void main(String[] args) {
+		A a = new A();
+		a.b=10;
+		System.out.println(a);
+		a.mymethod();
+	}
+
+}

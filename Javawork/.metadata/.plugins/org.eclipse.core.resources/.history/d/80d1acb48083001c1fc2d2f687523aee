@@ -1,0 +1,11 @@
+package com.laura.pc;
+
+import com.laura.pr.PatientRegistration;
+
+public class PatientClinicals {
+
+	public static void main(String[] args) {
+		PatientRegistration registration = new PatientRegistration();
+		
+	}
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="com.laura.product.dto.Product"/>
+    <fullyQualifiedTypeName name="com.laura.product.bo.ProductBO"/>
+    <fullyQualifiedTypeName name="com.laura.product.dao.ProductDAO"/>
+    <fullyQualifiedTypeName name="com.laura.product.dao.ProductDAOImpl"/>
+    <fullyQualifiedTypeName name="org.apache.maven.plugins.annotations.Mojo"/>
+    <fullyQualifiedTypeName name="org.apache.maven.plugins.annotations.LifecyclePhase"/>
+    <fullyQualifiedTypeName name="org.eclipse.sisu.Parameters"/>
+    <fullyQualifiedTypeName name="org.apache.maven.project.MavenProject"/>
+    <fullyQualifiedTypeName name="org.apache.maven.plugins.annotations.Parameter"/>
+    <fullyQualifiedTypeName name="org.apache.maven.model.Dependency"/>
+</qualifiedTypeNameHistroy>

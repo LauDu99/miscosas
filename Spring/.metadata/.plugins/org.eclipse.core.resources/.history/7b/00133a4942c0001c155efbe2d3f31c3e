@@ -1,0 +1,11 @@
+package com.laura.spring.springjavaconfig;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class SpringConfig {
+	public Dao dao() {
+		return new Dao();
+	}
+
+}

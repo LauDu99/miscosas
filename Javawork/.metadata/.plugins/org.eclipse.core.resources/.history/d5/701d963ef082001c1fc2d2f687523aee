@@ -1,0 +1,13 @@
+package com.laura.java9.inmutable;
+
+import java.util.List;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+		//una lista no modificable
+		List<String> list = List.of("abc", "xyz", "nyc");
+	}
+
+}

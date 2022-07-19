@@ -1,0 +1,10 @@
+package com.laura.java12.collectors;
+
+import java.util.List;
+
+public class Result {
+
+	private long count;
+	List<Integer> filtered;
+
+}

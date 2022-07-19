@@ -1,0 +1,15 @@
+package com.laura.java1314;
+
+public class InstanceofPatternMatchingDemo {
+
+	public static void main(String[] args) {
+	
+		get();
+		
+	}
+	
+	public static Object get() {
+		return 
+	}
+
+}

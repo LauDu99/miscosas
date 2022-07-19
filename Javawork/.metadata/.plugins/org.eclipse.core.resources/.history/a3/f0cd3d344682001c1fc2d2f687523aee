@@ -1,0 +1,14 @@
+import java.text.NumberFormat;
+
+public class NumberFormatClass {
+
+	public static void main(String[] args) {
+		double d = 12344444.3;
+		//obtener una cantidad en cierto idioma
+		NumberFormat nf = NumberFormat.getInstance();
+		
+		System.out.println(nf.format(d));
+		
+	}
+
+}

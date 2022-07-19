@@ -1,0 +1,9 @@
+package com.laura.spring.springjdbc.employee.dto;
+
+public class Employee {
+	
+	private int id;
+	private String firstname;
+	private String lastName;
+
+}

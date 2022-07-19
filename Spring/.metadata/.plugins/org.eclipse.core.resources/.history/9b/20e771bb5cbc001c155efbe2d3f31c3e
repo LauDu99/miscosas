@@ -1,0 +1,13 @@
+package com.laura.spring.springorm.product.dao.impl;
+
+import com.laura.spring.springorm.product.dao.ProductDao;
+import com.laura.spring.springorm.product.entity.Product;
+
+public class ProductDaoImpl implements ProductDao {
+
+	@Override
+	public int create(Product product) {
+		return 0;
+	}
+
+}

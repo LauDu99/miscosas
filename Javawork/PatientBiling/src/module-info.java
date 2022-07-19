@@ -1,0 +1,3 @@
+module patientbiling {
+	requires PatientClinicals;
+}

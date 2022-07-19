@@ -1,0 +1,9 @@
+@Deprecated
+public class A {
+	
+	public int b=10;
+	public void mymethod() {
+		
+	}
+
+}

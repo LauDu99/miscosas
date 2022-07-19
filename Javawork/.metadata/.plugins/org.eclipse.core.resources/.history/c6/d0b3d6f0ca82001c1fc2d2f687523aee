@@ -1,0 +1,15 @@
+import java.lang.reflect.InvocationTargetException;
+
+public class Student {
+
+	public static void main(String[] args) throws CloneNotSupportedException, InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException, NoSuchMethodException, SecurityException {
+		
+		Student s1 = new Student();
+		//Class.forName("defaul package").newInstance();
+		//clona el objeto
+		//diferente manera de crear el objeto y usar reflexion
+		Student s2 = Student.class.getConstructor().newInstance();
+		s1.clone();
+	}
+
+}

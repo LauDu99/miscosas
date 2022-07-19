@@ -1,0 +1,10 @@
+package com.bharat.java9.streamingapi;
+
+public class StreamingAPI {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

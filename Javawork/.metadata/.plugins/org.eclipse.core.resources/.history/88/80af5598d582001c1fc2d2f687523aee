@@ -1,0 +1,20 @@
+package com.laura.java.re;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class PatternandMatcher {
+
+	public static void main(String[] args) {
+		//pattern compile toma una cadena y devuelve un objeto de patron
+		Pattern pattern = Pattern.compile("abc");
+		//cadena donde buscar similitudes
+		Matcher matcher = pattern.matcher("abcdefgabcdefgabcdefg");
+		while(matcher.find()) {
+			System.out.println(matcher.start());//numero donde se encuentra la primer coincidencia
+			System.out.println(matcher.end());//numero donde termina la primer coincidencia
+			System.out.println(matcher.group());//que caracteres tiene la coincidencia
+		}
+	}
+
+}

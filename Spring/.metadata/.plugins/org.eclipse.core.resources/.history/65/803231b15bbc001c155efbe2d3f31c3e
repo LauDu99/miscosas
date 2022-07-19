@@ -1,0 +1,5 @@
+package com.laura.spring.springorm.product.dao;
+
+public interface ProductDao {
+
+}

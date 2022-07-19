@@ -1,0 +1,11 @@
+import java.text.NumberFormat;
+
+public class NumberFormatClass {
+
+	public static void main(String[] args) {
+		double d = 12344444.3;
+		NumberFormat nf = NumberFormat.getInstance();
+		
+	}
+
+}

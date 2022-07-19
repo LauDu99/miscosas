@@ -1,0 +1,23 @@
+package com.laura.spring.springjdbc.employee.dao.impl;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+
+import com.laura.spring.springjdbc.employee.dao.EmployeeDao;
+import com.laura.spring.springjdbc.employee.dto.Employee;
+
+public class EmployeeDaoimpl implements EmployeeDao{
+
+	private JdbcTemplate jdbcTemplate;
+	@Override
+	public int create(Employee employee) {
+		return 0;
+	}
+	public JdbcTemplate getJdbcTemplate() {
+		return jdbcTemplate;
+	}
+	public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
+		this.jdbcTemplate = jdbcTemplate;
+	}
+	
+
+}

@@ -1,0 +1,12 @@
+package com.laura.java.re;
+
+import java.util.regex.Pattern;
+
+public class Character {
+
+	public static void main(String[] args) {
+		//con ? es 0 o 1 vez
+		System.out.println(Pattern.matches("[abc]", "a"));
+	}
+
+}

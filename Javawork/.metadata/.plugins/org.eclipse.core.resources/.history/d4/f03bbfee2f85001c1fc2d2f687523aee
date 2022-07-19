@@ -1,0 +1,18 @@
+package com.laura.javanetworking.basics;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+
+public class ChatServer {
+
+	public static void main(String[] args) {
+
+		try {
+			ServerSocket serverSocket = new ServerSocket(9090);
+			serverSocket.accept();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

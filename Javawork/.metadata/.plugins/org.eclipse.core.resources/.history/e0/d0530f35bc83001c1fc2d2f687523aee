@@ -1,0 +1,10 @@
+package com.laura.java12.numberformat;
+
+public class NumberformatDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

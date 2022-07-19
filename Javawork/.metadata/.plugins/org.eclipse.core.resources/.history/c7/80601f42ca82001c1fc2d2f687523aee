@@ -1,0 +1,12 @@
+
+public class Student {
+
+	public static void main(String[] args) throws CloneNotSupportedException {
+		
+		Student s1 = new Student();
+		//Class.forName("defaul package").newInstance();
+		//clona el objeto
+		s1.clone();
+	}
+
+}

@@ -1,0 +1,13 @@
+@Deprecated
+public class A {
+	@Deprecated
+	public int b;
+	public void mymethod() {
+		
+	}
+	
+public void mymethod2() {
+		
+	}
+
+}

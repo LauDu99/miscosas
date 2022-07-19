@@ -1,0 +1,17 @@
+INDEX VERSION 1.131
+C:\Users\106721781\Documents\JDBC Servlets2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\653633723.index
+\JSPBasics\src\main\java
+C:\Users\106721781\Documents\JDBC Servlets2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3216259027.index
+\JSTLTApp\src\main\java
+C:\Users\106721781\Documents\JDBC Servlets2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2325684199.index
+\candpapp\src\main\java
+C:\Users\106721781\Documents\JDBC Servlets2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\930702985.index
+\ErrorsHandling\src\main\java
+C:\Users\106721781\Documents\JDBC Servlets2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3399954994.index
+\JSPActions\src\main\java
+C:\Users\106721781\Documents\JDBC Servlets2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2408993901.index
+\CustomTag\src\main\java
+C:\Users\106721781\Documents\JDBC Servlets2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4127387488.index
+\SecurityDemo\src\main\java
+C:\Users\106721781\Documents\JDBC Servlets2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2748687356.index
+\MVCDemo\src\main\java

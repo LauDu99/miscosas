@@ -1,0 +1,8 @@
+package com.laura.pc;
+
+public class PatientClinicals {
+
+	public static void main(String[] args) {
+		
+	}
+}

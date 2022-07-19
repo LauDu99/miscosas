@@ -1,0 +1,22 @@
+import java.util.Date;
+import java.text.SimpleDateFormat;
+import java.text.ParseException;
+
+public class SimpleDateFormatTest {
+
+	public static void main(String[] args) throws ParseException {
+		//configurar la fecha con el formato que prefieras
+		SimpleDateFormat sdf = new SimpleDateFormat("M/dd/yyyy");
+		
+		String date = sdf.format(new Date(0));
+		System.out.println(date);
+		
+		//convertir de fecha a cadena
+		
+		String dateas = "10-12-2014";
+		SimpleDateFormat sdf1 = new SimpleDateFormat("dd-M-yyyy");
+		Date date1 = sdf1.parse(dateas);
+		System.out.println(date1);
+	}
+
+}
